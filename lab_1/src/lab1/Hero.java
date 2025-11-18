@@ -13,8 +13,9 @@ public class Hero {
         this.stratagy_ = stratagy;
     }
 
-    public void move() {
-        System.out.println(name + " is " + stratagy_);
+    public void move(String a, String b) {
+        System.out.print(name + " is ");
+        stratagy_.move(a, b);
     }
 }
 

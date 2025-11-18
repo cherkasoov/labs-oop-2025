@@ -4,16 +4,14 @@ class Main {
     public static void main(String[] args) {
         Hero hero;
         hero = new Hero("Pavel");
-        hero.move();
+        hero.move("home", "forest");
 
         hero.SetMoveStratagy(new HourseStratagy());
-        hero.move();
+        hero.move("forest", "bar");
 
         hero.SetMoveStratagy(new FlyStratagy());
-        hero.move();
+        hero.move("bar", "home");
 
-        hero.SetMoveStratagy(new WalkStratagy());
-        hero.move();
     }
 }
 
