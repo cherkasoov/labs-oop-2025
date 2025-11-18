@@ -6,3 +6,4 @@ public class HourseStratagy implements MoveStratagy {
         System.out.println("hoursing!");
     }
 }
+

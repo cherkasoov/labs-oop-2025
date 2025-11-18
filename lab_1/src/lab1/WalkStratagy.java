@@ -6,3 +6,4 @@ public class WalkStratagy implements MoveStratagy {
         System.out.println("walking!");
     }
 }
+

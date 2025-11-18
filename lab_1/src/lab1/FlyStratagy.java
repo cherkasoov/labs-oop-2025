@@ -6,3 +6,5 @@ public class FlyStratagy implements MoveStratagy{
         System.out.println("flying!");
     }
 }
+
+

@@ -17,3 +17,5 @@ public class Hero {
         System.out.println(name + " is " + stratagy_);
     }
 }
+
+
